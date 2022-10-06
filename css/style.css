@@ -1,0 +1,33 @@
+h1{
+    color:blue;
+}
+
+p{
+    color:crimson; 
+    background-color: blue;
+    padding: 20px;
+    border: 10px;
+    margin: auto 50px;
+}
+
+/* Estilos Menu */
+ul{
+    list-style-type: none;
+    background-color: #457b9d;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #1d3557;
+}
