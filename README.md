@@ -1,2 +1,1 @@
-# MichGM.github.io
-## My Personal Web Page
+# MichGM.github.io -- My Personal Web Page
