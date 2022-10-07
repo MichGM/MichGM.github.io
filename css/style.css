@@ -1,11 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c3b8b8;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
 /* Estilos Header */
 header{
     display: flex;
     min-height: 70px;
-    background-color: coral;
+    /* background-color: rgb(47, 15, 112); */
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 250px 10px 10px;
+
 }
 .logo{
     display: flex;
@@ -15,15 +30,18 @@ header{
     height: 70px;
     margin-right: 10px;
 }
+.logo h2{
+    color: black;
+}
 
 .menu a{
-    color: rgb(7, 1, 1);
+    color: black;
     font-weight: 600;
     padding-right: 10px;
     text-decoration: none;
 }
 .menu a:hover{
-    color: #ffffff;
+    color: white;
 }
 
 @media (max-width:700px){
@@ -36,14 +54,30 @@ header{
 }
 /* Estilos Header */
 
-h1{
-    color:blue;
+main{
+    flex-grow: 1;
 }
 
-p{
-    color:crimson; 
-    background-color: blue;
-    padding: 20px;
-    border: 10px;
-    margin: auto 50px;
+/* Quien Soy */
+.quien_soy{
+    padding: 20px 100px;
+    text-align: left;
 }
+/* Quien Soy */
+
+/* experiencia */
+.experiencia{
+    padding: 20px 100px;
+    text-align: left;
+}
+.experiencia .p1{
+    width: 500px;
+}
+
+.experiencia .div_habilidades{
+    width: 33.33%;
+    float: left;
+}
+
+/* experiencia */
+
