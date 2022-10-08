@@ -5,21 +5,23 @@
 }
 
 body{
-    background-color: #c3b8b8;
+    background-color: #080808;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #999;
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
 
-/* Estilos Header */
+/******************************** Estilos Header ********************************/
 header{
     display: flex;
     min-height: 70px;
     /* background-color: rgb(47, 15, 112); */
     justify-content: space-between;
     align-items: center;
-    padding: 10px 250px 10px 10px;
+    padding: 10px 70px 10px 10px;
 
 }
 .logo{
@@ -31,17 +33,27 @@ header{
     margin-right: 10px;
 }
 .logo h2{
-    color: black;
+    color: #d8d8d8;
 }
 
 .menu a{
-    color: black;
+    color: #d8d8d8;
     font-weight: 600;
-    padding-right: 10px;
+    font: 10px "Chakra Petch",sans-serif;
+    text-transform: uppercase;
+    padding: 4px 14px;
+    margin-right: 5px;
     text-decoration: none;
+    letter-spacing: 0.1em;
+    height: 44px;
+    border: 2px solid #d8d8d8;
+    border-radius: 22px;
+    transition: border 0.2s ease 0.1s, color 0.2s ease 0.1s;
+    
 }
 .menu a:hover{
-    color: white;
+    color: #ffb96c;
+    border: 2px solid #ffb96c;
 }
 
 @media (max-width:700px){
@@ -52,20 +64,19 @@ header{
         padding: 10px 0px;
     }
 }
-/* Estilos Header */
+/******************************** Estilos Header ********************************/
 
+
+/******************************** Main ********************************/
 main{
     flex-grow: 1;
 }
 
-/* Quien Soy */
 .quien_soy{
     padding: 20px 100px;
     text-align: left;
 }
-/* Quien Soy */
 
-/* experiencia */
 .experiencia{
     padding: 20px 100px;
     text-align: left;
@@ -78,6 +89,13 @@ main{
     width: 33.33%;
     float: left;
 }
+/******************************** Main ********************************/
 
-/* experiencia */
 
+/******************************** Footer ********************************/
+.contacto .contacto_div{
+    display: flex;
+    justify-content: center;
+}
+
+/******************************** Footer ********************************/
